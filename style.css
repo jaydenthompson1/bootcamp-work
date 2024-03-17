@@ -1,0 +1,101 @@
+header nav {
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center; 
+    font-family: monospace;
+}
+
+.logo img {
+    width: 100px; 
+    margin-left: 20px;
+    margin-top: 10px;
+    height: auto;
+}
+
+ul {
+    list-style-type: none; 
+    display: flex; 
+}
+
+ul li {
+    margin-right: 20px; 
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    background-color: gainsboro;
+    font-family: monospace;
+    text-align: center;
+    margin: 20px;
+}
+
+.text-container {
+    flex: 1;
+    margin-right: auto; 
+}
+
+.info img {
+    width: 150px;
+    height: auto;
+    border: 2px solid #333;
+}
+
+.skills {
+    display: flex; 
+    justify-content: space-between; 
+    font-family: monospace;
+}
+
+.skills .technical-skills,
+.skills .soft-skills,
+.skills .hobbies {
+    flex-basis: 30%; 
+}
+
+  
+.skills h4 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+  }
+  
+.skills ul {
+    list-style-type: none;
+    padding: 0; 
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 5px; 
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
+  
+.skills li {
+    margin: 5px 0; 
+  }
+
+.skills ul li {
+    margin: 5px 0;
+    border-bottom: 1px solid #ccc; 
+    padding-bottom: 5px; 
+}
+
+.advice-header {
+    text-align: center;
+}
+
+.advice {
+    text-align: center;
+    margin-top: 20px;
+    font-family: monospace;
+    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; 
+    gap: 5px; 
+    border: 2px solid #ccc;
+    padding: 10px;
+}
+
+.github {
+    font-family: monospace;
+    
+}
